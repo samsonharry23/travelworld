@@ -1,0 +1,65 @@
+[
+  {
+    "cityName": "Lisbon",
+    "country": "Portugal",
+    "emoji": "🇵🇹",
+    "date": "2027-10-31T15:59:59.138Z",
+    "notes": "My favorite city so far!",
+    "position": { "lat": 38.727881642324164, "lng": -9.140900099907554 },
+    "id": 73930385
+  },
+  {
+    "cityName": "Madrid",
+    "country": "Spain",
+    "emoji": "🇪🇸",
+    "date": "2027-07-15T08:22:53.976Z",
+    "notes": "Amazing food and nightlife.",
+    "position": { "lat": 40.41675863309048, "lng": -3.7035825380255506 },
+    "id": 17806751
+  },
+  {
+    "cityName": "Berlin",
+    "country": "Germany",
+    "emoji": "🇩🇪",
+    "date": "2027-02-12T09:24:11.863Z",
+    "notes": "Incredible history at every corner.",
+    "position": { "lat": 52.53586782505539, "lng": 13.376933665713324 },
+    "id": 98443197
+  },
+  {
+    "cityName": "Paris",
+    "country": "France",
+    "emoji": "🇫🇷",
+    "date": "2027-05-09T18:44:02.453Z",
+    "notes": "The Eiffel Tower at night is magical.",
+    "position": { "lat": 48.853179362948435, "lng": 2.3494005689692193 },
+    "id": 12193150
+  },
+  {
+    "cityName": "Rome",
+    "country": "Italy",
+    "emoji": "🇮🇹",
+    "date": "2027-08-21T11:05:30.121Z",
+    "notes": "Pasta, ruins, and gelato everywhere.",
+    "position": { "lat": 41.90329470430054, "lng": 12.495924472808831 },
+    "id": 45291002
+  },
+  {
+    "cityName": "London",
+    "country": "United Kingdom",
+    "emoji": "🇬🇧",
+    "date": "2027-03-18T14:30:00.000Z",
+    "notes": "Rainy but full of character.",
+    "position": { "lat": 51.50734740990912, "lng": -0.12764739990234375 },
+    "id": 88332019
+  },
+  {
+    "cityName": "Tokyo",
+    "country": "Japan",
+    "emoji": "🇯🇵",
+    "date": "2027-11-02T07:15:42.000Z",
+    "notes": "A perfect blend of tradition and tech.",
+    "position": { "lat": 35.68124848833092, "lng": 139.76712226867676 },
+    "id": 31057620
+  }
+]
