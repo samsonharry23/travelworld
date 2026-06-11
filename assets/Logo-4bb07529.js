@@ -1,0 +1,1 @@
+import{a as o,L as l}from"./index-f3681ee8.js";const s="_logo_7b2ls_1",g={logo:s};function t(){return o(l,{to:"/",children:o("img",{src:"/logo.png",alt:"TravelWorld logo",className:g.logo})})}export{t as L};
