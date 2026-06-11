@@ -24,8 +24,6 @@ function AuthProvider({ children }) {
     initialState
   );
 
-  // Demo auth: log in with ANY email + password. A user profile is built
-  // from whatever email was entered.
   function login(email, password) {
     if (!email || !password) return;
 

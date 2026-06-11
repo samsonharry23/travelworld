@@ -6,9 +6,6 @@ import {
   useCallback,
 } from "react";
 
-// Cities load from a bundled static JSON file (public/cities.json), so the app
-// works both locally and when deployed — no separate backend server needed.
-// Create/delete update local state for the current session.
 const CITIES_URL = `${import.meta.env.BASE_URL}cities.json`;
 
 const CitiesContext = createContext();
@@ -98,7 +95,7 @@ function CitiesProvider({ children }) {
   );
 
   function createCity(newCity) {
-    // No backend — generate an id and add to local state for this session.
+
     const cityWithId = { ...newCity, id: Date.now() };
     dispatch({ type: "city/created", payload: cityWithId });
   }
