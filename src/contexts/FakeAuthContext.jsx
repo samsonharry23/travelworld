@@ -18,22 +18,25 @@ function reducer(state, action) {
   }
 }
 
-const FAKE_USER = {
-  name: "Jack",
-  email: "jack@example.com",
-  password: "qwerty",
-  avatar: "https://i.pravatar.cc/100?u=zz",
-};
-
 function AuthProvider({ children }) {
   const [{ user, isAuthenticated }, dispatch] = useReducer(
     reducer,
     initialState
   );
 
+  // Demo auth: log in with ANY email + password. A user profile is built
+  // from whatever email was entered.
   function login(email, password) {
-    if (email === FAKE_USER.email && password === FAKE_USER.password)
-      dispatch({ type: "login", payload: FAKE_USER });
+    if (!email || !password) return;
+
+    const username = email.split("@")[0];
+    const user = {
+      name: username.charAt(0).toUpperCase() + username.slice(1),
+      email,
+      avatar: `https://i.pravatar.cc/100?u=${encodeURIComponent(email)}`,
+    };
+
+    dispatch({ type: "login", payload: user });
   }
 
   function logout() {

@@ -15,9 +15,12 @@ export default function Product() {
             Just $9/month.
           </h2>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
-            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
-            voluptatem iste.
+            Stop letting your best memories fade. For just $9 a month,
+            TravelWorld turns every trip into a beautiful map of your life —
+            pin unlimited cities, track every country you conquer, and relive
+            each adventure whenever you want. Join thousands of travelers
+            mapping their journeys. Your next destination is waiting — start
+            today, cancel anytime.
           </p>
         </div>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />
