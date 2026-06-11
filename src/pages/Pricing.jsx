@@ -15,11 +15,9 @@ export default function Product() {
             Just $9/month.
           </h2>
           <p>
-            For only $9 a month you unlock the full TravelWorld experience —
-            drop unlimited pins to mark every location you&apos;ve visited,
-            track your trips across cities and countries, and keep your whole
-            journey in one place. No hidden fees, cancel anytime. Start mapping
-            your adventures today.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel
+            labore mollitia iusto. Recusandae quos provident, laboriosam fugit
+            voluptatem iste.
           </p>
         </div>
         <img src="img-2.jpg" alt="overview of a large city with skyscrapers" />

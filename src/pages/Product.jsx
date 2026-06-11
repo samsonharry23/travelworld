@@ -12,21 +12,17 @@ export default function Product() {
           alt="person with dog overlooking mountain with sunset"
         />
         <div>
-          <h2>About TravelWorld.</h2>
+          <h2>About WorldWide.</h2>
           <p>
-            TravelWorld lets you log every place you visit on an interactive
-            world map. Click anywhere on the map and the app uses reverse
-            geocoding to detect the city and country automatically, then saves
-            it to your personal travel list. You can browse your trips grouped
-            by city or country, jump to your current location with geolocation,
-            and relive each adventure with notes and dates.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo est
+            dicta illum vero culpa cum quaerat architecto sapiente eius non
+            soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
+            perspiciatis?
           </p>
           <p>
-            I built this project while learning from Jonas Schmedtmann&apos;s{" "}
-            <em>The Ultimate React Course</em>. It uses React with Vite, React
-            Router for nested and protected routes, the Context API with
-            useReducer for global state, Leaflet (react-leaflet) for the maps,
-            and code-splitting with React.lazy and Suspense for fast loading.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            doloribus libero sunt expedita ratione iusto, magni, id sapiente
+            sequi officiis et.
           </p>
         </div>
       </section>
